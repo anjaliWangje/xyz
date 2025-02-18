@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+        <!DOCTYPE hibernate-mapping PUBLIC
+                "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.map.xml.Person" table="Person">
+        <id name="id" column="Person_id">
+            <generator class="native"/>
+
+
+            
+        </id>  
+        <property name="name" column="Person_nmae" type="String"/>
+        <property name="address" column="Person_address" type="String"/>
+        <property name="city" column="Person_city" type="String"/>
+
+
+
+
+    </class>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</hibernate-mapping>
